@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -10,8 +10,202 @@
       type="text/css"
     />
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-     
+    <header class=" mx-auto sticky top-0 z-10">
+      <nav class="bg-[#F9F7F3]">
+        <div class="navbar w-11/12 mx-auto">
+          <div class="navbar-start">
+            <a class="btn bg-[#B4F461] text-xl">Blog</a>
+          </div>
+          <div class="navbar-center sm:hidden lg:flex">
+            <div class="flex justify-center space-x-2 py-3">
+              <img class="w-7 h-7" src="assets/logo.png" alt="" />
+              <p class="font-semibold text-xl">Donate Bangladesh</p>
+            </div>
+          </div>
+          <div class="navbar-end">
+            <div class="">
+              <div class="flex justify-between space-x-2">
+                <div><img src="assets/coin.png" alt="" /></div>
+                <div class="font-medium text-[#111111B3] text-xl">
+                  9,400 BDT
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div class="flex justify-center space-x-6 p-14 bg-white opacity-90">
+          <button
+            class="btn btn-outline text-[#111111B3] text-xl font-bold"
+          >
+            Donation
+          </button>
+          <button
+            class="btn btn-outline text-[#111111B3] text-xl font-bold"
+          >
+            History
+          </button>
+        </div>
+    </header>
+    <main class="w-10/12 mx-auto">
+      
+      <div>
+        <!-- 1st card -->
+        <div class="border-2 border-slate-100 rounded-xl p-7">
+          <div class="card lg:card-side bg-base-100 shadow-sm">
+            <figure>
+              <img src="assets/noakhali.png" alt="Album" />
+            </figure>
+            <div class="card-body lg:w-1/2">
+              <div class="">
+                <div
+                  class="flex justify-center space-x-2 rounded-lg bg-slate-200 p-2 w-32"
+                >
+                  <div>
+                    <img class="w-5 h-5" src="assets/coin.png" alt="" />
+                  </div>
+                  <div class="font-medium text-[#111111B3] text-sm">
+                    400 BDT
+                  </div>
+                </div>
+              </div>
+              <h2 class="card-title font-bold">
+                Donate for Flood at Noakhali, Bangladesh
+              </h2>
+              <div class="">
+                <p class="text-[#111111B3]">
+                  The recent floods in Noakhali have caused significant damage
+                  to homes infrastructure. Your donation will help provide
+                  essential supplies and to those affected by this disaster.
+                  Every contribution, big or small, makes difference. Please
+                  join us in supporting the relief efforts and making a positive
+                  impact on the lives of those in need.
+                </p>
+              </div>
+              <div class="">
+                <input
+                  type="text"
+                  placeholder="Write Donation Amount"
+                  class="input input-bordered w-10/12"
+                />
+              </div>
+              <div class="card-actions justify-start">
+                <button class="btn w-10/12 bg-[#B4F461] font-bold">
+                  Donate Now
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br />
+        <!-- 2nd card -->
+        <div class="border-2 border-slate-100 rounded-xl p-7">
+          <div class="card lg:card-side bg-base-100 shadow-sm">
+            <figure>
+              <img src="assets/feni.png" alt="Album" />
+            </figure>
+            <div class="card-body lg:w-1/2">
+              <div class="">
+                <div
+                  class="flex justify-center space-x-2 rounded-lg bg-slate-200 p-2 w-32"
+                >
+                  <div>
+                    <img class="w-5 h-5" src="assets/coin.png" alt="" />
+                  </div>
+                  <div class="font-medium text-[#111111B3] text-sm">
+                    400 BDT
+                  </div>
+                </div>
+              </div>
+              <h2 class="card-title font-bold">
+                Donate for Flood at Feni, Bangladesh
+              </h2>
+              <div class="">
+                <p class="text-[#111111B3]">
+                  The recent floods in Feni have caused significant damage to
+                  homes infrastructure. Your donation will help provide
+                  essential supplies and to those affected by this disaster.
+                  Every contribution, big or small, makes difference. Please
+                  join us in supporting the relief efforts and making a positive
+                  impact on the lives of those in need.
+                </p>
+              </div>
+              <div class="">
+                <input
+                  type="text"
+                  placeholder="Write Donation Amount"
+                  class="input input-bordered w-10/12"
+                />
+              </div>
+              <div class="card-actions justify-start">
+                <button class="btn w-10/12 bg-[#B4F461] font-bold">
+                  Donate Now
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br />
+        <!-- 3rd card -->
+        <div class="border-2 border-slate-100 rounded-xl p-7">
+          <div class="card lg:card-side bg-base-100 shadow-sm">
+            <figure>
+              <img src="assets/quota-protest.png" alt="Album" />
+            </figure>
+            <div class="card-body lg:w-1/2">
+              <div class="">
+                <div
+                  class="flex justify-center space-x-2 rounded-lg bg-slate-200 p-2 w-32"
+                >
+                  <div>
+                    <img class="w-5 h-5" src="assets/coin.png" alt="" />
+                  </div>
+                  <div class="font-medium text-[#111111B3] text-sm">
+                    400 BDT
+                  </div>
+                </div>
+              </div>
+              <h2 class="card-title font-bold">
+                Aid for Injured in the Quota Movement
+              </h2>
+              <div class="">
+                <p class="text-[#111111B3]">
+                  The recent Quota movement has resulted in numerous injuries
+                  and significant hardship for many individuals. Your support is
+                  crucial in providing medical assistance, rehabilitation, and
+                  necessary supplies to those affected. By contributing, you
+                  help ensure that injured individuals receive the care and
+                  support they need during this challenging time. Every donation
+                  plays a vital role in alleviating their suffering and aiding
+                  in their recovery. Please consider making a donation to
+                  support these brave individuals in their time of need.
+                </p>
+              </div>
+              <div class="">
+                <input
+                  type="text"
+                  placeholder="Write Donation Amount"
+                  class="input input-bordered w-10/12"
+                />
+              </div>
+              <div class="card-actions justify-start">
+                <button class="btn w-10/12 bg-[#B4F461] font-bold">
+                  Donate Now
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="js/index.js"></script>
   </body>
 </html>
