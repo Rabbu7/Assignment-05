@@ -13,7 +13,7 @@ document.getElementById('btn-2-add-money')
      const donate2= document.getElementById('donate-2').value;
      validityTest(donate2);
      calculateBalance('donate-2','feni-balance');
-     addHistory('donate-1','noakhali');
+     addHistory('donate-2','feni');
      
 })
 document.getElementById('btn-3-add-money')
@@ -21,7 +21,7 @@ document.getElementById('btn-3-add-money')
      event.preventDefault();
      const donate3= document.getElementById('donate-3').value;
      validityTest(donate3);
-     calculateBalance('donate-1','movement-balance');
-     addHistory('donate-1','noakhali');
+     calculateBalance('donate-3','movement-balance');
+     addHistory('donate-3','movement');
      
 })
