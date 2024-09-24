@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              lexend: "Lexend",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body class="font-lexend">
+    <header>
+      <nav class="bg-[#F9F7F3]">
+        <div class="navbar w-11/12 mx-auto">
+          <div class="navbar-start">
+            <a href="index.html" class="btn bg-[#B4F461] text-xl">Home</a>
+          </div>
+          <div class="navbar-center sm:hidden lg:flex">
+            <div class="flex justify-center space-x-2 py-3">
+              <img class="w-7 h-7" src="assets/logo.png" alt="" />
+              <p class="font-semibold text-xl">Donate Bangladesh</p>
+            </div>
+          </div>
+          <div class="navbar-end">
+            <div class="">
+              <div class="flex justify-between space-x-2">
+                <div><img src="assets/coin.png" alt="" /></div>
+                <div class="font-medium text-[#111111B3] text-xl">
+                  9,400 BDT
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="mx-auto w-10/12 mt-6">
+      <div>
+        <h1 class="font-bold text-3xl">Important FAQ</h1>
+      </div>
+
+      <div
+        tabindex="0"
+        class="collapse collapse-arrow border-base-300 bg-base-200 border mt-6"
+      >
+        <div class="collapse-title text-xl font-medium">
+          What is the Document Object Model(DOM)?
+        </div>
+        <div class="collapse-content">
+          <p>
+            The Document Object Model (DOM) is a programming interface for web
+            documents. It represents the structure of an HTML or XML document as
+            a tree of objects, allowing programs to interact with, access, and
+            modify the content, structure, and styling of the document
+            dynamically.
+          </p>
+        </div>
+      </div>
+      <div
+        tabindex="0"
+        class="collapse collapse-arrow border-base-300 bg-base-200 border mt-6"
+      >
+        <div class="collapse-title text-xl font-medium">
+          How do you select an element from the DOM?
+        </div>
+        <div class="collapse-content">
+          <p>
+            The DOM elements can be selected using methods like
+            getElementById(id) for an element by its id, querySelector(selector)
+            for the first matching CSS selector, and querySelectorAll(selector)
+            for all matches. Other methods include getElementsByClassName(class)
+            and getElementsByTagName(tag) for class and tag-based selections.
+          </p>
+        </div>
+      </div>
+      <div
+        tabindex="0"
+        class="collapse collapse-arrow border-base-300 bg-base-200 border mt-6"
+      >
+        <div class="collapse-title text-xl font-medium">
+          What is event delegation in the context of DOM, and why is useful?
+        </div>
+        <div class="collapse-content">
+          <p>
+            Event delegation is a technique where a single event listener on a
+            parent element handles events for its child elements, leveraging
+            event bubbling. It's useful for improving performance and managing
+            dynamic content.
+          </p>
+        </div>
+      </div>
+      <div
+        tabindex="0"
+        class="collapse collapse-arrow border-base-300 bg-base-200 border mt-6"
+      >
+        <div class="collapse-title text-xl font-medium">
+          How do you manipulate an element's attributes and styles using DOM?
+        </div>
+        <div class="collapse-content">
+          <p>
+            We can manipulate an element's attributes using methods like
+            setAttribute() and getAttribute() or by directly modifying
+            properties like element.id or element.src. For styles, use
+            element.style.property to change specific CSS properties.
+          </p>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
