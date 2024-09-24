@@ -46,7 +46,7 @@
               <div class="flex justify-between space-x-2">
                 <div><img src="assets/coin.png" alt="" /></div>
                 <div class="font-medium text-[#111111B3] text-xl">
-                  <span>89000</span> BDT
+                  <span id="main-balance">89000</span> BDT
                 </div>
               </div>
             </div>
@@ -54,12 +54,12 @@
         </div>
       </nav>
       <div class="flex justify-center space-x-6 p-14 bg-white opacity-90">
-          <button
+          <button id="title-donation"
             class="btn btn-outline text-[#111111B3] text-xl font-bold"
           >
             Donation
           </button>
-          <button
+          <button id="title-history"
             class="btn btn-outline text-[#111111B3] text-xl font-bold"
           >
             History
@@ -68,7 +68,7 @@
     </header>
     <main class="w-10/12 mx-auto">
       
-      <div>
+      <div id="donation-page">
         <!-- 1st card -->
         <div class="border-2 border-slate-100 rounded-xl p-7">
           <div class="card lg:card-side bg-base-100 shadow-sm">
@@ -84,11 +84,11 @@
                     <img class="w-5 h-5" src="assets/coin.png" alt="" />
                   </div>
                   <div class="font-medium text-[#111111B3] text-sm">
-                    400 BDT
+                    <span id="noakhali-balance">400</span> BDT
                   </div>
                 </div>
               </div>
-              <h2 class="card-title font-bold">
+              <h2 id="noakhali" class="card-title font-bold">
                 Donate for Flood at Noakhali, Bangladesh
               </h2>
               <div class="">
@@ -104,13 +104,14 @@
               <br>
               <div class="">
                 <input
+                id="donate-1"
                   type="text"
                   placeholder="Write Donation Amount"
                   class="input input-bordered w-10/12"
                 />
               </div>
               <div class="card-actions justify-start">
-                <button class="btn w-10/12 bg-[#B4F461] font-bold">
+                <button id="btn-1-add-money" class="btn w-10/12 bg-[#B4F461] font-bold">
                   Donate Now
                 </button>
               </div>
@@ -133,7 +134,7 @@
                     <img class="w-5 h-5" src="assets/coin.png" alt="" />
                   </div>
                   <div class="font-medium text-[#111111B3] text-sm">
-                    400 BDT
+                    <span id="feni-balance">600</span> BDT
                   </div>
                 </div>
               </div>
@@ -153,13 +154,14 @@
               <br>
               <div class="">
                 <input
+                id="donate-2"
                   type="text"
                   placeholder="Write Donation Amount"
                   class="input input-bordered w-10/12"
                 />
               </div>
               <div class="card-actions justify-start">
-                <button class="btn w-10/12 bg-[#B4F461] font-bold">
+                <button id="btn-2-add-money" class="btn w-10/12 bg-[#B4F461] font-bold">
                   Donate Now
                 </button>
               </div>
@@ -182,7 +184,7 @@
                     <img class="w-5 h-5" src="assets/coin.png" alt="" />
                   </div>
                   <div class="font-medium text-[#111111B3] text-sm">
-                    400 BDT
+                    <span id="movement-balance">900</span> BDT
                   </div>
                 </div>
               </div>
@@ -205,13 +207,14 @@
               </div>
               <div class="">
                 <input
+                id="donate-3"
                   type="text"
                   placeholder="Write Donation Amount"
                   class="input input-bordered w-10/12"
                 />
               </div>
               <div class="card-actions justify-start">
-                <button class="btn w-10/12 bg-[#B4F461] font-bold">
+                <button id="btn-3-add-money" class="btn w-10/12 bg-[#B4F461] font-bold">
                   Donate Now
                 </button>
               </div>
@@ -219,8 +222,18 @@
           </div>
         </div>
       </div>
+
+      <div id="history-page" class="mx-auto hidden space-y-4">
+          <div tabindex="0" class="collapse collapse-open border-base-300 bg-base-200 border">
+               <div class="collapse-title text-xl font-medium">I have collapse-open class</div>
+               <div class="collapse-content">
+                 <p>tabindex="0" attribute is necessary to make the div focusable</p>
+               </div>
+             </div>
+      </div>
     </main>
     <script src="js/index.js"></script>
     <script src="js/utilities.js"></script>
+    <script src="js/features.js"></script>
   </body>
 </html>
