@@ -16,8 +16,19 @@
       href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap"
       rel="stylesheet"
     />
+    <script>
+     tailwind.config = {
+       theme: {
+         extend: {
+           fontFamily: {
+             lexend: "Lexend",
+           }
+         }
+       }
+     }
+   </script>
   </head>
-  <body>
+  <body class="font-lexend">
     <header class=" mx-auto sticky top-0 z-10">
       <nav class="bg-[#F9F7F3]">
         <div class="navbar w-11/12 mx-auto">
@@ -90,6 +101,7 @@
                   impact on the lives of those in need.
                 </p>
               </div>
+              <br>
               <div class="">
                 <input
                   type="text"
@@ -105,7 +117,7 @@
             </div>
           </div>
         </div>
-        <br />
+        <br>
         <!-- 2nd card -->
         <div class="border-2 border-slate-100 rounded-xl p-7">
           <div class="card lg:card-side bg-base-100 shadow-sm">
@@ -138,6 +150,7 @@
                   impact on the lives of those in need.
                 </p>
               </div>
+              <br>
               <div class="">
                 <input
                   type="text"
@@ -188,6 +201,7 @@
                   in their recovery. Please consider making a donation to
                   support these brave individuals in their time of need.
                 </p>
+                <br>
               </div>
               <div class="">
                 <input
@@ -207,5 +221,6 @@
       </div>
     </main>
     <script src="js/index.js"></script>
+    <script src="js/utilities.js"></script>
   </body>
 </html>
