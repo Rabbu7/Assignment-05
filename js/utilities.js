@@ -3,7 +3,12 @@ function validityTest(id1) {
     alert("INVALID NUMBER");
     return 0;
   }
+  else if(id1 > 0){
+     document.getElementById('my_modal_5').showModal();
+  }
 }
+
+
 
 const mainBalance = document.getElementById("main-balance");
 const historyDiv = document.getElementById("history-page");
