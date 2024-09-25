@@ -17,19 +17,19 @@
       rel="stylesheet"
     />
     <script>
-     tailwind.config = {
-       theme: {
-         extend: {
-           fontFamily: {
-             lexend: "Lexend",
-           }
-         }
-       }
-     }
-   </script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              lexend: "Lexend",
+            },
+          },
+        },
+      };
+    </script>
   </head>
   <body class="font-lexend">
-    <header class=" mx-auto sticky top-0 z-10">
+    <header class="mx-auto sticky top-0 z-10">
       <nav class="bg-[#F9F7F3]">
         <div class="navbar w-11/12 mx-auto">
           <div class="navbar-start">
@@ -54,20 +54,21 @@
         </div>
       </nav>
       <div class="flex justify-center space-x-6 p-14 bg-white opacity-90">
-          <button id="title-donation"
-            class="btn btn-outline text-[#111111B3] text-xl font-bold"
-          >
-            Donation
-          </button>
-          <button id="title-history"
-            class="btn btn-outline text-[#111111B3] text-xl font-bold"
-          >
-            History
-          </button>
-        </div>
+        <button
+          id="title-donation"
+          class="btn btn-outline text-[#111111B3] text-xl font-bold"
+        >
+          Donation
+        </button>
+        <button
+          id="title-history"
+          class="btn btn-outline text-[#111111B3] text-xl font-bold"
+        >
+          History
+        </button>
+      </div>
     </header>
     <main class="w-10/12 mx-auto">
-      
       <div id="donation-page">
         <!-- 1st card -->
         <div class="border-2 border-slate-100 rounded-xl p-7">
@@ -101,24 +102,27 @@
                   impact on the lives of those in need.
                 </p>
               </div>
-              <br>
+              <br />
               <div class="">
                 <input
-                id="donate-1"
+                  id="donate-1"
                   type="text"
                   placeholder="Write Donation Amount"
                   class="input input-bordered w-10/12"
                 />
               </div>
               <div class="card-actions justify-start">
-                <button id="btn-1-add-money" class="btn w-10/12 bg-[#B4F461] font-bold">
+                <button
+                  id="btn-1-add-money"
+                  class="btn w-10/12 bg-[#B4F461] font-bold"
+                >
                   Donate Now
                 </button>
               </div>
             </div>
           </div>
         </div>
-        <br>
+        <br />
         <!-- 2nd card -->
         <div class="border-2 border-slate-100 rounded-xl p-7">
           <div class="card lg:card-side bg-base-100 shadow-sm">
@@ -151,17 +155,20 @@
                   impact on the lives of those in need.
                 </p>
               </div>
-              <br>
+              <br />
               <div class="">
                 <input
-                id="donate-2"
+                  id="donate-2"
                   type="text"
                   placeholder="Write Donation Amount"
                   class="input input-bordered w-10/12"
                 />
               </div>
               <div class="card-actions justify-start">
-                <button id="btn-2-add-money" class="btn w-10/12 bg-[#B4F461] font-bold">
+                <button
+                  id="btn-2-add-money"
+                  class="btn w-10/12 bg-[#B4F461] font-bold"
+                >
                   Donate Now
                 </button>
               </div>
@@ -203,18 +210,21 @@
                   in their recovery. Please consider making a donation to
                   support these brave individuals in their time of need.
                 </p>
-                <br>
+                <br />
               </div>
               <div class="">
                 <input
-                id="donate-3"
+                  id="donate-3"
                   type="text"
                   placeholder="Write Donation Amount"
                   class="input input-bordered w-10/12"
                 />
               </div>
               <div class="card-actions justify-start">
-                <button id="btn-3-add-money" class="btn w-10/12 bg-[#B4F461] font-bold">
+                <button
+                  id="btn-3-add-money"
+                  class="btn w-10/12 bg-[#B4F461] font-bold"
+                >
                   Donate Now
                 </button>
               </div>
@@ -223,9 +233,7 @@
         </div>
       </div>
 
-      <div id="history-page" class="mx-auto hidden space-y-4">
-          
-      </div>
+      <div id="history-page" class="mx-auto hidden space-y-4"></div>
     </main>
     <script src="js/index.js"></script>
     <script src="js/utilities.js"></script>
